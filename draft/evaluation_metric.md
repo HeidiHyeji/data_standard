@@ -1,3 +1,4 @@
+참고자료) https://velog.io/@dohee1121/Text-Generation-Metric%EC%9E%90%EC%97%B0%EC%96%B4-%EC%83%9D%EC%84%B1-%ED%8F%89%EA%B0%80-%EC%A7%80%ED%91%9C
 
 ## 📌 1. ROUGE란 무엇인가?
 
