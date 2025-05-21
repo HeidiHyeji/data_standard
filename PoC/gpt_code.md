@@ -1,10 +1,8 @@
-아래 코드 및 명령어를 순서대로 Google Colab에서 실행하시면 됩니다.
 
 ---
 
 ## 🚀 ① 라이브러리 설치 (Colab용)
 
-Colab 환경에서 다음과 같이 필수 라이브러리를 설치하세요:
 
 ```bash
 !pip install openai faiss-cpu numpy
@@ -14,7 +12,6 @@ Colab 환경에서 다음과 같이 필수 라이브러리를 설치하세요:
 
 ## 🚀 ② OpenAI API 설정
 
-본인의 OpenAI API 키로 설정하세요.
 
 ```python
 import openai
@@ -25,7 +22,6 @@ openai.api_key = "여기에_당신의_OpenAI_API_키"
 
 ## 🚀 ③ 표준 데이터 임베딩 및 추천 예제
 
-다음 코드를 Colab에서 순차적으로 실행하면 됩니다.
 
 ```python
 import openai
@@ -75,7 +71,6 @@ print("🎯 추천된 표준 데이터:", recommended_standard)
 
 ## 🚀 ④ ChatGPT API를 활용한 모델 성능 평가 예제
 
-다음 코드는 표준 데이터 여부에 따른 GPT 응답 차이를 확인하는 코드입니다.
 
 ```python
 # ChatGPT 호출 함수
@@ -145,7 +140,6 @@ print("\n📌 비표준 데이터 기반 응답 ROUGE 점수:\n", non_standard_s
 !python --version
 ```
 
-Colab 환경은 기본적으로 이미 Python이 설치되어 있으므로 별도의 Python 설치 명령어는 필요하지 않습니다.
 
 ---
 
@@ -158,8 +152,3 @@ Colab 환경은 기본적으로 이미 Python이 설치되어 있으므로 별�
 | 3  | 표준 데이터 추천 코드                         | 임베딩 생성 및 추천    |
 | 4  | GPT API 모델 성능 평가 코드                  | GPT 호출하여 응답 비교 |
 | 5  | ROUGE 평가 코드                          | 응답 평가          |
-
-위 내용을 순서대로 실행하면,
-실제 **추천 알고리즘 구현 및 GPT 기반 모델 성능 평가 PoC**를 명확하게 실행해 볼 수 있습니다.
-
-추가적인 실행 문제나 코드 수정이 필요하면 알려주세요!
