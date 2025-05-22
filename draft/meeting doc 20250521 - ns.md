@@ -12,4 +12,7 @@
 - 한국어 사용성 순위(리더보드) : https://wikidocs.net/226061
 - LLM 후보
 	- 퍼블릭 :  GPT 4.5 / 클로드 3.5 소넷 / 클로바 X
-	- 오픈소스 : Llama4 / Gemma3 / Qwen3 / mistral-small3.1![[AI 데이터표준화 시스템 초안.png]]
+	- 오픈소스 : Llama4 / Gemma3 / Qwen3 / mistral-small3.1
+
+
+![AI 데이터표준화 시스템 초안](https://github.com/user-attachments/assets/f588b9dc-9de8-4166-a0af-3f2c2e31cc8b)
