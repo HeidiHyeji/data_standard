@@ -15,7 +15,7 @@
 
 ```python
 import openai
-openai.api_key = "여기에_당신의_OpenAI_API_키"
+openai.api_key = "OpenAI_API_키 추가해주세욥"
 ```
 
 ---
@@ -29,7 +29,7 @@ import faiss
 import numpy as np
 
 # OpenAI API 키 설정
-openai.api_key = "여기에_당신의_OpenAI_API_키"
+openai.api_key = "OpenAI_API_키 추가해주세욥"
 
 # 표준 데이터 메타데이터 예시
 standard_metadata = [
